@@ -1,0 +1,249 @@
+body {
+    background-color: #e8e8e3;
+ }
+  
+ 
+ .header {
+ 
+   display: flex;
+ 
+   border-top: 12px solid #00005a;
+ 
+   border-bottom: 12px solid #00005a;
+ 
+   width: 100%;
+ 
+ }
+  
+ .logo {
+ 
+   margin-left: 15px;
+ 
+   width: 100px;
+ 
+ }
+  
+  
+ .nav {
+ 
+   display: flex;
+ 
+   justify-content: space-between;
+ 
+   flex-wrap: wrap;
+ 
+   align-items: center;
+ 
+   padding: 2rem 1;
+ 
+   margin-right: 0px;
+ 
+   height: 50px;
+ 
+   width: 100%;
+ 
+   background-color: #e8e8e3;
+ 
+ }
+  
+ .menu {
+ 
+   display: flex;
+ 
+   list-style: none;
+ 
+   margin-left: 8rem;
+ 
+   margin-right: 20px;
+ 
+ }
+  
+ .seletor {
+ 
+   margin-left: 5rem;
+ 
+   font-size: 1rem;
+  
+ }
+  
+ .campo-clic {
+ 
+   color: #272961;
+ 
+   border-radius: 5px;
+ 
+   transition: all 0.1s;
+ 
+   text-decoration: none;
+  
+ }
+  
+ a:hover {
+ 
+   padding: 0.1rem 1rem;
+ 
+   color: #272961;
+ 
+   background-color: #fff;
+ 
+   cursor: pointer;
+ 
+ }
+ 
+ 
+ footer {
+  
+     background-color: #00005a;
+     height: 263px;
+    
+    
+    
+   }
+    
+   .logo-footer {
+     width: 130px;
+     float: inherit;
+    
+   }
+    
+   .selecao {
+     padding: 15px;
+     text-align: start;
+   }
+    
+   .click {
+     color: #fff;
+     font-size: 0.9rem;
+     list-style: none;
+     letter-spacing: 2px;
+     font-weight: lighter;
+     font-style: normal;
+   }
+    
+   .f-h3 {
+     display: flex;
+     text-align: center;
+     align-items: center;
+   }
+    
+   .menu-footer {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+    
+   }
+    
+   .a-footer {
+     display: flex;
+     flex-direction: column;
+     border-radius: 5px;
+     text-decoration: none;
+     color: inherit;
+     font-weight: lighter;
+     font-style: normal;
+     margin-top: 19px;
+    
+   }
+    
+   .a:hover {
+     padding: 0.1rem 1rem;
+     color: #272961;
+     background-color: #fff;
+     cursor: pointer;
+   }
+    
+   .footer-info {
+     background-color: rgb(255, 250, 250);
+     height: 30px;
+     padding-bottom: 10px;
+     max-width: 100%;
+     max-height: 30px;
+    
+   }
+    
+   .icons{
+   margin-left: 15px;
+   margin-top: 4px;
+   }
+ 
+   .car{
+     width: 800px;
+     padding-left: 20%;
+   
+     
+   }
+ 
+   
+ 
+   .p1{
+     padding-left: 43%;
+     font-size: 25px;
+   }
+ 
+   .p2{
+     margin-top: 5%;
+     padding-left: 30%;
+     font-size: 20px;
+   }
+ 
+   .botao-som { 
+     height: 50px;
+     background-color: #272961;
+     bottom: 10px; 
+     margin-left: 42%; 
+     margin-top: 10%;
+     border-radius: 5px;
+     font-size: 15px;
+     cursor: pointer;
+   }
+ 
+   .botao-som:hover {
+     background-color: #0056b3;
+ }
+ 
+ 
+ 
+ 
+ body {
+   font-family: Arial, sans-serif;
+   margin: 20px;
+   padding: 0;
+   background-color: #f4f4f4;
+   margin-top: 10%;
+ }
+ .container {
+   
+   max-width: 600px;
+   margin: 0 auto;
+   padding: 20px;
+   background-color: #e8e8e3;
+   box-shadow: 0 0 10px rgba(6, 23, 255, 0.1);
+   border-radius: 8px;
+ }
+ .form-group {
+   margin-bottom: 15px;
+   margin-top: 5%;
+ }
+ label {
+   display: block;
+   margin-bottom: 5px;
+ }
+ input, select, textarea {
+   width: 100%;
+   padding: 8px;
+   box-sizing: border-box;
+   color: black;
+ }
+ button {
+   padding: 10px 15px;
+   background-color: #272961;
+   color: rgb(255, 255, 255);
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+ }
+ button:hover {
+   background-color: #0056b3;
+ }
+ 
+ 

@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="script.js">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header">
+
+        <nav id="nav" class="nav">
+            <img class="logo" src="logo-fordgo.webp" class="logo" alt="">
+            <ul class="menu" id="menu">
+                <li class="seletor"><a class="campo-clic" href="#">Veiculos</a></li>
+                <li class="seletor"><a class="campo-clic" href="#">Aluguel</a></li>
+                <li class="seletor"><a class="campo-clic" href="#">Assinatura</a></li>
+                <li class="seletor"><a class="campo-clic" href="#">Duvidas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <button id="botao-som" class="botao-som">Tocar Som do Motor</button>
+    <section class="secP">
+        <div class="div1">
+            <img class="car" src="fbr-f150-platinum.avif" alt="Mustang GT Performance">
+            <p class="p1">FORD F-150</p>
+            <p class="p2">POTÊNCIA: 405CV | TORQUE: 556 nm | MOTOR: Coyote 5.0L V8</p>
+        </div>
+    </section>
+
+    <audio id="som-motor" src="Ford F150 Raptor OF.mp3"></audio>
+
+    </div>
+
+    <div>
+        <section>
+
+            
+        </section>
+
+
+        <div class="container">
+            <h1>Informações do Aluguel</h1>
+            <form id="rentalForm">
+                <div class="form-group">
+                    <label for="pickupDate">Data de Retirada</label>
+                    <input type="date" id="pickupDate" name="pickupDate" required>
+                </div>
+                <div class="form-group">
+                    <label for="pickupTime">Hora de Retirada</label>
+                    <input type="time" id="pickupTime" name="pickupTime" required>
+                </div>
+                <div class="form-group">
+                    <label for="rentalType">Tipo de Aluguel</label>
+                    <select id="rentalType" name="rentalType" required>
+                        <option value="">Selecione...</option>
+                        <option value="hourly">Por Hora</option>
+                        <option value="daily">Diária</option>
+                    </select>
+                </div>
+                <div class="form-group" id="hourlyOptions" style="display: none;">
+                    <label for="hours">Horas de Aluguel</label>
+                    <select id="hours" name="hours">
+                        <option value="">Selecione...</option>
+                        <option value="1">1 hora</option>
+                        <option value="2">2 horas</option>
+                        <option value="3">3 horas</option>
+                        <option value="4">4 horas</option>
+                        <option value="5">5 horas</option>
+                        <option value="6">6 horas</option>
+                        <option value="7">7 horas</option>
+                        <option value="8">8 horas</option>
+                        <option value="9">9 horas</option>
+                        <option value="10">10 horas</option>
+                        <option value="11">11 horas</option>
+                        <option value="12">12 horas</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Valor Total: R$ <span id="totalAmount">0</span></label>
+                </div>
+                <div class="form-group">
+                    <label>
+                       
+                        Ao clicar em próximo você estará de acordo com nossos termos de condições e confirmando que é maior de idade
+                    </label>
+                </div>
+                <button type="button" id="nextButton">Próximo</button>
+            </form>
+        </div>
+     
+        <div class="container" id="confirmationForm" style="display: none;">
+            <h1>Confirmação de Dados</h1>
+            <form id="detailsForm">
+                <div class="form-group">
+                    <label for="fullName">Nome Completo</label>
+                    <input type="text" id="fullName" name="fullName" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Celular</label>
+                    <input type="text" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="cpfCnpj">CPF ou CNPJ</label>
+                    <input type="text" id="cpfCnpj" name="cpfCnpj" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="address">Endereço</label>
+                    <textarea id="address" name="address" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="paymentMethod">Forma de Pagamento</label>
+                    <select id="paymentMethod" name="paymentMethod" required>
+                        <option value="dinheiro">Dinheiro</option>
+                        <option value="pix">Pix</option>
+                        <option value="cartao_credito">Cartão de Crédito</option>
+                        <option value="cartao_debito">Cartão de Débito</option>
+                    </select>
+                </div>
+                <button type="submit">Confirmar Compra</button>
+            </form>
+        </div>
+     
+        <script src="script.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <nav class="selecao">
+            <img class="logo-footer" src="ford pronto.png">
+            <ul class="menu-footer">
+                <li class="click">
+                    <h3 class="f-h3" href="#">Contatos</h3>
+                    <a class="a-footer" href="#">@fordgobrasil.com.br</a>
+                    <a class="a-footer" href="#">(11)9 000000-00</a>
+                    <a class="a-footer" href="#">whatsapp</a>
+                    <a class="a-footer" href="#">@FordGo</a>
+                </li>
+                <li class="click">
+                    <h3 class="f-h3" href="#">Sobre nós</h3>
+                    <a class="a-footer" href="#">Ford-Foundation</a>
+                    <a class="a-footer" href="#">Carreiras</a>
+                    <a class="a-footer" href="#">Programa de estágio</a>
+                    <a class="a-footer" href="#">Ford-Enter</a>
+                    <a class="a-footer" href="#">Noticias</a>
+                </li>
+                <li class="click">
+                    <h3 class="f-h3" href="#">Comprar</h3>
+                    <a class="a-footer" href="#">Monte o seu</a>
+                    <a class="a-footer" href="#">Ofertas</a>
+                    <a class="a-footer" href="#">Concessionárias</a>
+                    <a class="a-footer" href="#">Simule seu Financiamento</a>
+                    <a class="a-footer" href="#">Plano Ford Sempre</a>
+                </li>
+                <li class="click">
+                    <h3 class="f-h3" href="#">Serviços</h3>
+                    <a class="a-footer" href="#">Atualização Sync</a>
+                    <a class="a-footer" href="#">Assistência de Emergência</a>
+                    <a class="a-footer" href="#">Agende seu Serviço</a>
+                    <a class="a-footer" href="#">Serviço Leva e Traz</a>
+                    <a class="a-footer" href="#">Revisões Ford </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="footer-info">
+            <a href="https://www.facebook.com/FordBrasil/">
+                <img class="icons" src="/assets/facebook.png" alt="" class="face">
+            </a>
+
+            <a href="https://www.youtube.com/fordbrasil">
+
+                <img class="icons" src="/assets/youtube.png" alt="" class="youtube">
+            </a>
+
+            <a href="https://www.instagram.com/fordbrasil/">
+
+                <img class="icons" src="/assets/instagram.png" alt="" class="insta">
+            </a>
+        </div>
+    </footer>
+
+</body>
+
+</html>
